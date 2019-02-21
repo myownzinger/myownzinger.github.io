@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head section -->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>San Joaquin Valley Town Hall</title>
+	<!-- link to icons and style sheets -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="stylesheet" href="styles/normalize.css">
+
+	<link rel="stylesheet" href="styles/main.css">
+      
+    <link rel="stylesheet" href="styles/slicknav.css">
+    <link rel="stylesheet" href="styles/tickets.css">
+    <!-- link to js and jquery -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <!-- script for nav-->
+	<script type="text/javascript">
+    	$(document).ready(function(){
+			$('#nav_menu').slicknav({prependTo:"#mobile_menu"});
+    	});
+    </script>
+</head>
+<!-- body section -->
+<body>
+<!-- header -->
+	<header>
+		<img src="images/town_hall_logo.gif" alt="Town Hall logo" height="80">
+		<h2>San Joaquin Valley Town Hall</h2>
+		<h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
+	</header>
+   <!-- Navigation menu -->
+    <nav id="mobile_menu"></nav>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html" class="current">Home</a></li>
+        	<li><a href="speakers.html">Speakers</a></li>
+        	<li><a href="luncheons.html">Luncheons</a></li>
+        	<li><a href="tickets.html">Tickets</a></li>
+        	<li><a href="aboutus.html"> About Us</a>
+            	<ul>
+                	<li><a href="#">Our History</a></li>
+                	<li><a href="#">Board of Directors</a></li>
+                	<li><a href="#">Past Speakers</a></li>
+                	<li><a href="#">Contact Information</a></li>
+            	</ul>
+        	</li>
+    	</ul>
+	</nav>
+	<!-- Main body -->
+	<main>
+	<!-- section set to be on the right -->
+		<section>
+			<h2>Our Mission</h2>
+			<p>San Joaquin Valley Town Hall is a non-profit organization that is run by an 
+			   all-volunteer board of directors. Our mission is to bring nationally and 
+			   internationally renowned, thought-provoking speakers who inform, educate, 
+			   and entertain our audience! As one or our members told us:</p>
+			<blockquote>&ldquo;Each year I give a ticket package to each of our family members. 
+			I think of it as the gift of knowledge...and that is priceless.&rdquo;</blockquote>
+			
+			<h1>Speaker of the Month</h1>
+			<!-- Article within section -->
+			<article>
+				<h2>Fossil Threads in the Web of Life</h2>
+				<picture>
+				<source type="image/webp" srcset="images/sampson_dinosaur.webp">
+				<img src="images/sampson_dinosaur.jpg" alt="Scott Sampson with dinosaur">
+				</picture>
+                <h3>February</h3>
+				<h3>Scott Sampson</h3>
+				<p>What's 75 million years old and brand spanking new? A teenage Utahceratops! 
+				Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research 
+				Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research 
+				has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted 
+				fieldwork in a number of countries in Africa.</p>
+				<p>
+					<a href="speakers/sampson.html">Read more.</a>&nbsp;
+					<a href="media/sampson.swf" target="_blank">Or play video.</a>
+				</p>
+			</article>
+			<!-- unordered list-->
+			<h2>Our Ticket Packages</h2>
+			<ul>
+				<li>Season Package: $95</li>
+				<li>Patron Package: $200</li>
+				<li>Single Speaker: $25</li>
+			</ul>
+			<!-- this section is from the luncheons page -->
+			<h1>About Our Luncheons</h1>
+			<p>Make reservations for lunch in the lower lobby of the William Saroyan Theater after each lecture. 
+			These informal sessions provide an excellent opportunity to talk with the speaker.</p>
+			<h2>Season luncheon tickets: $120</h2>
+			<p>These tickets can be ordered at the same time as the season lecture ticket.</p>
+			<h2>Individual luncheon tickets: $25</h2>
+			<p>A limited number of these tickets are available and can be purchased by calling 
+			559.555.1212. These tickets must be purchased by the Friday prior to the lecture.</p>
+			<!-- schedule stored in table -->
+			<h2>The luncheon schedule</h2>			
+			<table>			
+				<thead>
+					<tr>
+						<th id="sched_year" scope="col">Year</th>
+						<th id="sched_date" scope="col">Date</th>
+						<th id="sched_speaker" scope="col">Speaker</th>
+						<th id="sched_cost" scope="col">Cost</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td headers="sched_year" rowspan="2">2017</td>
+						<td headers="sched_date">October 19</td>
+						<td headers="sched_speaker">Jeffrey Toobin</td>
+						<td headers="sched_cost">$25</td>
+					</tr>
+					<tr class="midborder">
+						<td headers="sched_date">November 16</td>
+						<td headers="sched_speaker">Andrew Ross Sorkin</td>
+						<td headers="sched_cost">$25</td>
+					</tr>
+					<tr>
+						<td headers="sched_year" rowspan="4">2018</td>
+						<td headers="sched_date">January 18</td>
+						<td>Amy Chua</td>
+						<td headers="sched_cost">$25</td>
+					</tr>
+					<tr>
+						<td headers="sched_date">February 16</td>
+						<td headers="sched_speaker">Scott Sampson</td>
+						<td headers="sched_cost">$25</td>
+					</tr>
+					<tr>
+					    <td headers="sched_date">March 21</td>
+					    <td headers="sched_speaker">Carlos Eire</td>
+					    <td headers="sched_cost">$25</td>
+					</tr>
+					<tr class="midborder">
+					    <td headers="sched_date">April 18</td>
+					    <td headers="sched_speaker">Ronan Tynan</td>
+					    <td headers="sched_cost">$25</td>
+					</tr>
+					<tr>
+					    <th  scope="row" colspan="3" class="totals">Cost of 6 individual luncheon tickets</th>
+					    <td>$150</td>
+					</tr>
+					<tr>					    
+					    <th scope="row" colspan="3" class="totals">Cost of a season luncheon ticket</th>
+					    <td headers="sched_cost">$120</td>
+					</tr>
+				</tbody>
+				<tfoot>
+				    <tr>                    
+				        <th scope="row" colspan="3" class="totals">Savings</th>
+				        <th headers="sched_cost">$30</th>
+				    </tr>
+				</tfoot>
+			</table>
+			<!-- order form from tickets page -->
+			<h1>Order Form</h1>
+    		<form action="register_account.html" method="get"
+        		name="registration_form" id="registration_form">
+    			<fieldset>
+	        		<legend>Member Information</legend>
+	        		<label for="email">E-Mail:</label>
+	        		<input type="email" name="email" id="email" autofocus required><br>
+        			<label for="first_name">First Name:</label>
+					<input type="text" name="first_name" id="first_name" required><br>
+					<label for="last_name">Last Name:</label>
+					<input type="text" name="last_name" id="last_name" required><br>
+					<label for="address">Address:</label>
+					<input type="text" name="address" id="address"><br>
+					<label for="city">City:</label>
+					<input type="text" name="city" id="city" required><br>
+					<label for="state">State:</label>
+					<input type="text" name="state" id="state" required maxlength="2" placeholder="2-character code"><br>
+					<label for="zip">ZIP Code:</label>
+					<input type="text" name="zip" id="zip" required placeholder="5 or 9 digits" 
+				           pattern="^\d{5}(-\d{4})?$" title="Either 5 or 9 digits"><br>
+					<label for="phone">Phone Number:</label>
+					<input type="tel" name="phone" id="phone" placeholder="999-999-9999" 
+				       	   pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be 999-999-999 format"><br>
+				</fieldset>
+				<fieldset>
+					<legend>Ordering Information</legend>
+					<label for="order_type">Order Type:</label>
+					<select name="order_type" id="order_type">
+				    	<option value="m">Member Package</option>
+				    	<option value="d">Donor Package</option>            
+				    	<option value="s">Single Tickets</option>
+					</select><br>
+					<label for="tickets">Tickets for Guests:</label>
+					<input type="text" name="tickets" id="tickets" placeholder="Number of single tickets"><br>
+				</fieldset>
+				<fieldset id="radio_buttons">
+					<legend>Payment Method</legend>							
+                    <input type="radio" name="pay" id="bill1" value="bill">
+                    <label for="bill1">Bill Me</label>
+                    <input type="radio" name="pay" id="credit1" value="credit">
+                    <label for="credit1">Credit Card</label>
+				</fieldset>
+				<fieldset id="buttons">
+					<legend>Submit Your Order</legend>
+					<label>&nbsp;</label>
+					<input type="submit" id="submit" value="Submit">
+					<input type="reset" id="reset" value="Reset Fields"><br>
+				</fieldset>
+			</form>
+		</section>
+		<!-- aside set to be a bar along left side-->
+		<aside>
+			<h2>Guest speakers</h2>
+			<div id="speakers">
+			<h3>October<br><a href="speakers/toobin.html">Jeffrey Toobin</a></h3>
+			<img src="images/toobin75.jpg" alt="Jeffrey Toobin photo">
+			<h3>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
+			<img src="images/sorkin75.jpg" alt="Andrew Ross Sorkin photo">
+			<h3>January<br><a href="speakers/chua.html">Amy Chua</a></h3>
+			<img src="images/chua75.jpg" alt="Amy Chua photo">
+			<h3>February<br><a href="speakers/sampson.html">Scott Sampson</a></h3>
+			<img src="images/sampson75.jpg" alt="Scott Sampson photo">
+			</div>
+		</aside>
+	</main>
+	<!-- footer -->
+	<footer>
+		<p>&copy; 2018, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+	</footer>
+</body>
+</html>
